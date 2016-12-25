@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		90C7B58C1E0FC7E50039B030 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B58B1E0FC7E50039B030 /* main.m */; };
 		90C7B58F1E0FC7E50039B030 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B58E1E0FC7E50039B030 /* AppDelegate.m */; };
-		90C7B5921E0FC7E50039B030 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B5911E0FC7E50039B030 /* ViewController.m */; };
 		90C7B5951E0FC7E50039B030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C7B5931E0FC7E50039B030 /* Main.storyboard */; };
 		90C7B5971E0FC7E50039B030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C7B5961E0FC7E50039B030 /* Assets.xcassets */; };
 		90C7B59A1E0FC7E50039B030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C7B5981E0FC7E50039B030 /* LaunchScreen.storyboard */; };
 		90C7B5A51E0FC7E50039B030 /* TAConfirmOrderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B5A41E0FC7E50039B030 /* TAConfirmOrderTests.m */; };
 		90C7B5B01E0FC7E50039B030 /* TAConfirmOrderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B5AF1E0FC7E50039B030 /* TAConfirmOrderUITests.m */; };
+		90C7B5C11E0FC8250039B030 /* Target_TAConfirmOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B5C01E0FC8250039B030 /* Target_TAConfirmOrder.m */; };
+		90C7B5C41E0FC8770039B030 /* TAConfirmOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C7B5C31E0FC8770039B030 /* TAConfirmOrderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,6 @@
 		90C7B58B1E0FC7E50039B030 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90C7B58D1E0FC7E50039B030 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90C7B58E1E0FC7E50039B030 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		90C7B5901E0FC7E50039B030 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		90C7B5911E0FC7E50039B030 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		90C7B5941E0FC7E50039B030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90C7B5961E0FC7E50039B030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90C7B5991E0FC7E50039B030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,10 @@
 		90C7B5AB1E0FC7E50039B030 /* TAConfirmOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAConfirmOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C7B5AF1E0FC7E50039B030 /* TAConfirmOrderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAConfirmOrderUITests.m; sourceTree = "<group>"; };
 		90C7B5B11E0FC7E50039B030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C7B5BF1E0FC8250039B030 /* Target_TAConfirmOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TAConfirmOrder.h; sourceTree = "<group>"; };
+		90C7B5C01E0FC8250039B030 /* Target_TAConfirmOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TAConfirmOrder.m; sourceTree = "<group>"; };
+		90C7B5C21E0FC8770039B030 /* TAConfirmOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAConfirmOrderViewController.h; sourceTree = "<group>"; };
+		90C7B5C31E0FC8770039B030 /* TAConfirmOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAConfirmOrderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +104,9 @@
 		90C7B5891E0FC7E50039B030 /* TAConfirmOrder */ = {
 			isa = PBXGroup;
 			children = (
+				90C7B5BD1E0FC7FD0039B030 /* TAConfirmOrder */,
 				90C7B58D1E0FC7E50039B030 /* AppDelegate.h */,
 				90C7B58E1E0FC7E50039B030 /* AppDelegate.m */,
-				90C7B5901E0FC7E50039B030 /* ViewController.h */,
-				90C7B5911E0FC7E50039B030 /* ViewController.m */,
 				90C7B5931E0FC7E50039B030 /* Main.storyboard */,
 				90C7B5961E0FC7E50039B030 /* Assets.xcassets */,
 				90C7B5981E0FC7E50039B030 /* LaunchScreen.storyboard */,
@@ -138,6 +140,25 @@
 				90C7B5B11E0FC7E50039B030 /* Info.plist */,
 			);
 			path = TAConfirmOrderUITests;
+			sourceTree = "<group>";
+		};
+		90C7B5BD1E0FC7FD0039B030 /* TAConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				90C7B5BE1E0FC8030039B030 /* Target */,
+				90C7B5C21E0FC8770039B030 /* TAConfirmOrderViewController.h */,
+				90C7B5C31E0FC8770039B030 /* TAConfirmOrderViewController.m */,
+			);
+			path = TAConfirmOrder;
+			sourceTree = "<group>";
+		};
+		90C7B5BE1E0FC8030039B030 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				90C7B5BF1E0FC8250039B030 /* Target_TAConfirmOrder.h */,
+				90C7B5C01E0FC8250039B030 /* Target_TAConfirmOrder.m */,
+			);
+			name = Target;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90C7B5921E0FC7E50039B030 /* ViewController.m in Sources */,
 				90C7B58F1E0FC7E50039B030 /* AppDelegate.m in Sources */,
+				90C7B5C41E0FC8770039B030 /* TAConfirmOrderViewController.m in Sources */,
 				90C7B58C1E0FC7E50039B030 /* main.m in Sources */,
+				90C7B5C11E0FC8250039B030 /* Target_TAConfirmOrder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
